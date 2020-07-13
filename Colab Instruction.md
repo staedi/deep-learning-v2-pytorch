@@ -33,6 +33,8 @@ you can connect to **Google Drive** and *import* files from there.
 ```
 from google.colab import drive
 drive.mount("/content/drive")
+
+%cd '/content/drive/My Drive/Colab Notebooks/intro-to-pytorch'
 ```
 
 ### Import custom library from Google Drive
